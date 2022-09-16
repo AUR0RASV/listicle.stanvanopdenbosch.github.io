@@ -1,0 +1,139 @@
+/**
+ TODO(you): Add CSS for the list that you create yourself!
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-image: url("img/bg.jpg");
+  background-size: cover;
+  background-position: 0px -13em;
+  background-attachment: fixed;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  padding-left: 3em;
+  color: #028334;
+  font-weight: bold;
+  font-family: poppins;
+}
+
+strong {
+  font-size: 25px;
+}
+
+.item img {
+  width: 30em;
+  height: 100%;
+  padding-left: 3em;
+}
+
+#title-text {
+  font-family: "Bungee";
+  color: white;
+  font-size: 36px;
+  font-weight: normal;
+  max-width: 780px;
+  text-align: center;
+  text-shadow: 3px 3px 10px #000000, 5px 5px 10px #000;
+}
+
+#profile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+#profile-pic {
+  background-image: url("img/pfp.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 25%;
+  width: 150px;
+  height: 150px;
+  margin-top: -50px;
+  border: 5px solid white;
+}
+
+#profile-text {
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+  line-height: 24px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e6e6e6;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#body {
+  width: 66.67%;
+  position: relative;
+}
+
+.item-title {
+  font-family: "Bungee";
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+}
+
+.paragraph-break {
+  height: 4em;
+}
+
+.paragraph-break-a {
+  height: 2em;
+}
+
+.item-text {
+  font-family: "Poppins";
+  font-size: 20px;
+  line-height: 32px;
+  margin: 0px;
+  text-align: justify;
+}
+
+.item {
+  padding: 60px 0px;
+}
+
+.item-number-container {
+  position: absolute;
+  right: 100%;
+}
+
+a {
+  color: #722db3;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Poppins";
+  font-size: 20px;
+}
+
+a:hover {
+  text-decoration: underline wavy #000000;
+}
